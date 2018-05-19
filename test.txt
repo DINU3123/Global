@@ -1,0 +1,15 @@
+class test {
+  void m1() {
+ System.out.println("m1 method")
+}
+  void m1( int a) {
+ System.out.println("m2 method") 
+  }
+public static void main I(String[] args) {
+
+  test t= new test();
+
+ t.m1();
+ t.m1(10);
+}
+}
